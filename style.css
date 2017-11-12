@@ -1,0 +1,110 @@
+body {
+  background-color: #005bd6;
+  color: #ffffff;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1, h4 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+#nav {
+  height: 120px;
+}
+
+.mdl-layout {
+  background-color: #005BD6;
+}
+
+.mdl-layout__header{
+  background-color: #005bd6;
+  width: 100%;
+}
+
+.mdl-layout-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.brand {
+  width: 50px;
+  padding-right: 10px;
+}
+
+.brand img {
+  width: 40px;
+}
+
+#main {
+  padding: 20px;
+  color: #ffffff;
+  display: block;
+}
+
+#main p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#main h1 {
+  padding-left: 40px;
+}
+
+.lhs {
+  float: left;
+  width: 50%;
+}
+
+
+.lhs ul {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.lhs li {
+  padding: 10px;
+  line-height: 20px;
+}
+
+.rhs {
+  float: right;
+  width: 50%;
+}
+
+.rhs p {
+  width: 80%;
+  line-height: 40px;
+}
+
+.rhs a {
+  padding-right: 50px;
+  color: #ffffff;
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.watermark p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  bottom: 0;
+  position: fixed;
+  opacity: 0.22;
+  font-weight: 700;
+  z-index: 0;
+  width: 80%;
+  white-space: nowrap;
+  /*overflow: hidden;*/
+  text-overflow: ellipsis;
+}
+
