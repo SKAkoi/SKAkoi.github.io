@@ -138,3 +138,12 @@ p, span, li {
   text-overflow: ellipsis;
 }
 
+@media screen and (max-width: 800px) {
+  .lhs {
+    width: 100%;
+  }
+  .rhs {
+    width: 100%;
+  }
+}
+

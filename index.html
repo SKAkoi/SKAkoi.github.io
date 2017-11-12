@@ -18,8 +18,8 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Logo -->
-          <span class="brand"><img src="images/logo.png"></span>
-          <span class="mdl-layout-title">Kwaku Akoi</span>
+          <span class="brand" onclick="showMain()"><img src="images/logo.png"></span>
+          <span class="mdl-layout-title" onclick="showMain()">Kwaku Akoi</span>
           <!-- Spacer -->
           <div class="mdl-layout-spacer"></div>
           <!-- Nav elements -->
@@ -27,8 +27,6 @@
             <a class="mdl-navigation__link" href="#aboutme" onclick="showAbout()">About Me</a>
             <a class="mdl-navigation__link" href="#mywork" onclick="showMyWork()">My Work</a>
             <a class="mdl-navigation__link" href="#contact" onclick="showContact()">Contact</a>
-            <a class="mdl-navigation__link" href="">Github</a>
-            <a class="mdl-navigation__link" href="">LinkedIn</a>
           </nav>
         </div>
       </header>
@@ -48,11 +46,9 @@
       <p>I'm a creative strategist building amazing digital experiences that
         solve real problems for millions of users worldwide.
         I'm currently a lead UX Architect at Hilton</p>
-      <div class="section-links">
-        <nav class="mdl-navigation">
-          <a href="#aboutme" class="mdl-navigation__link" onclick="showAbout()"><h4>ABOUT ME</h4></a>
-          <a href="" class="mdl-navigation__link"><h4>MY WORK</h4></a>
-          <a href="" class="mdl-navigation__link"><h4>CONTACT</h4></a>
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a href="https://github.com/SKAkoi" class="mdl-navigation__link">Github</a>
+          <a href="https://linkedin.com/in/kwakuakoi" class="mdl-navigation__link">LinkedIn</a>
         </nav>
       </div>
     </div>
