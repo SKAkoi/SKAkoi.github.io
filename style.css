@@ -3,6 +3,7 @@ body, html {
   color: #ffffff;
   width: 100%;
   overflow-x: hidden;
+  font-size: 2vw;
   /*height: 100%;*/
 }
 
@@ -19,13 +20,8 @@ h1, h3, h4 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h3 {
-  padding-left: 40px;
-}
-
-p, span, li {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
+.gold {
+  color: #FFEB00;
 }
 
 .mdl-layout a {
@@ -49,6 +45,19 @@ p, span, li {
   width: 100%;
 }
 
+.mdl-button {
+  background-color: #FFEB00;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+  background-color: #FFEB00;
+}
+
+.mdl-chip {
+  background-color: #FFEB00;
+  width: 250px;
+}
+
 .brand {
   width: 50px;
   padding-right: 10px;
@@ -64,43 +73,20 @@ p, span, li {
   /*display: block;*/
 }
 
-#main p {
-  font-size: 1.5em;
-  font-weight: 300;
-}
-
-.lhs {
-  float: left;
-  width: 50%;
-}
-
-
-.lhs ul {
-  list-style-type: none;
-  font-size: 1.5em;
-}
-
-.lhs li {
-  padding: 10px;
-  line-height: 20px;
-}
-
-.rhs {
-  float: right;
-  width: 50%;
-}
-
-.rhs p {
+#main img {
   width: 80%;
-  line-height: 40px;
+  max-width: 260px;
+  border-radius: 50%;
+  margin-left: 10%;
+  vertical-align: middle;
+  margin-top: 30%;
 }
 
-.rhs a {
-  padding-right: 50px;
-  color: #ffffff;
+.main-intro p {
   font-size: 1.25em;
+  line-height: 1.5em;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .material-icons {
@@ -143,11 +129,12 @@ p, span, li {
 }
 
 @media screen and (max-width: 800px) {
-  .lhs {
-    width: 100%;
+  html {
+    font-size: 4vw;
   }
-  .rhs {
-    width: 100%;
+
+  .main-intro p {
+    font-size: 2em;
   }
 }
 

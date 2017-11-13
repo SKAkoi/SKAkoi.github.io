@@ -17,7 +17,11 @@
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title"><img src="images/logo.png" class="brand"> Kwaku Akoi</span>
+        <span class="mdl-layout-title"><img src="images/logo-yellow@2x.png" class="brand"></span>
+        <div class="mdl-layout-spacer"></div>
+        <span>
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Resume</button>
+        </span>
       </div>
         <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
@@ -31,17 +35,63 @@
     <main class="mdl-layout__content">
       <section id="main" class="mdl-layout__tab-panel is-active">
         <div class="page-content">
-          <h1 class="hi">Hi, I'm Kwaku.</h1>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col">
+              <img src="images/me.jpg">
+            </div>
+            <div class="mdl-cell mdl-cell--9-col">
+              <div class="main-intro">
+                <h1>Hi, I'm Kwaku.</h1>
+                <p>I'm a creative strategist building amazing digital experiences that solve real problems for millions of users worldwide. I'm currently a lead UX Architect at Hilton.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="mdl-layout__tab-panel" id="aboutme">
         <div class="page-content">
-          <h1 class="hi">My Journeys To Date</h1>
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col">
+              <h1>About Me</h1>
+              <span class="mdl-chip mdl-chip--contact">
+                <img class="mdl-chip__contact" src="images/me.jpg"></img>
+                <span class="mdl-chip__text">My journey</span>
+              </span>
+              <ol>
+                <li><span class="gold">Accra, Ghana</span> -  born and raised.</li>
+                <li><span class="gold">Simsbury, CT</span> -  attended high school</li>
+                <li><span class="gold">Middletown, CT</span> -  college @ Wesleyan University</li>
+                <li><span class="gold">Brooklyn, NY</span> -  founded Joomah, Inc</li>
+                <li><span class="gold">Memphis, TN</span> -  leading UX @ Hilton</li>
+              </ol>
+            </div>
+            <div class="mdl-cell mdl-cell--8-col">
+              <div class="current">
+                <h3 class="gold">Current</h3>
+                <ul>
+                  <li>Leading UX Architecture at Hilton</li>
+                  <li>Teaching creative computing to 4th graders at KIPP Memphis Elementary</li>
+                </ul>
+              </div>
+              <div class="previous">
+                <h3 class="gold">Previous</h3>
+                <ul>
+                  <li>Founded Joomah Inc, a startup building smarter hiring tools for Africa</li>
+                  <li>Managed Wesleyan University's Instructional Media Services</li>
+                  <li>Consulted on I.T projects for Dannex, a leading drug maker in Ghana</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="mywork" class="mdl-layout__tab-panel"></section>
+      <section id="mywork" class="mdl-layout__tab-panel">
+        <div class="page-content">
+          <h1 class="hi">My work</h1>
+        </div>
+      </section>
 
       <section id="contact" class="mdl-layout__tab-panel">
         <h1>Get in touch</h1>
