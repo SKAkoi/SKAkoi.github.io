@@ -32,8 +32,12 @@ p, span, li {
   color: #ffffff;
 }
 
-#nav {
-  height: 120px;
+.mdl-layout__tab-bar {
+  background-color: #005BD6;
+}
+
+.mdl-layout__tab-bar-button {
+  background-color: #005BD6;
 }
 
 .mdl-layout {
@@ -57,7 +61,7 @@ p, span, li {
 #main {
   padding: 20px;
   color: #ffffff;
-  display: block;
+  /*display: block;*/
 }
 
 #main p {
