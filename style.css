@@ -80,6 +80,7 @@ h1, h3, h4 {
   margin-left: 10%;
   vertical-align: middle;
   margin-top: 30%;
+  border: 3px solid #FFEB00;
 }
 
 .main-intro p {
