@@ -13,14 +13,16 @@
 </head>
 
 <body>
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title"><img src="images/logo-yellow@2x.png" class="brand"></span>
+        <!--<span class="mdl-layout-title"><img src="images/logo-yellow@2x.png" class="brand"></span>-->
+        <span class="mdl-layout-title"><a href="#main"><h3 class="gold">// k.a</h3></a></span>
         <div class="mdl-layout-spacer"></div>
         <span>
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Resume</button>
+          <span class="social-icons"><a href="https://github.com/SKAkoi"><img src="images/github.png"></a></span>
+          <span class="social-icons"><a href="https://www.linkedin.com/in/kwakuakoi/"><img src="images/linkedin.png"></a></span>
         </span>
       </div>
         <!-- Tabs -->
@@ -36,12 +38,12 @@
       <section id="main" class="mdl-layout__tab-panel is-active">
         <div class="page-content">
           <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col">
-              <img src="images/me.jpg">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone">
+              <div class="main-image"><img src="images/me.jpg"></div>
             </div>
-            <div class="mdl-cell mdl-cell--9-col">
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--4-col-phone">
               <div class="main-intro">
-                <h1>Hi, I'm Kwaku.</h1>
+                <h1 class="gold">Hi, I'm Kwaku.</h1>
                 <p>I'm a creative strategist building amazing digital experiences that solve real problems for millions of users worldwide. I'm currently a lead UX Architect at Hilton.</p>
               </div>
             </div>
@@ -51,7 +53,8 @@
 
       <section class="mdl-layout__tab-panel" id="aboutme">
           <div class="page-content">
-          <h1 class="center">About Me</h1>
+          <h2 class="center gold section-title">About Me</h2>
+          <h4 class="center journey-intro">My journey from Accra, Ghana to Memphis, TN</h4>
           <div class="portfolio">
             <div class="row">
           <div class="demo-card-square demo-card-squareA mdl-card mdl-shadow--2dp">
@@ -105,7 +108,8 @@
 
       <section id="mywork" class="mdl-layout__tab-panel">
         <div class="page-content">
-          <h1 class="center">My work</h1>
+          <h2 class="center gold section-title">My work</h2>
+          <h4 class="center journey-intro">A sampling of some of my latest work</h4>
           <div class="portfolio">
             <div class="row">
           <div class="demo-card-square demo-card-square1 mdl-card mdl-shadow--2dp">
@@ -183,17 +187,48 @@
       </section>
 
       <section id="contact" class="mdl-layout__tab-panel">
-        <h1 class="center">Get in touch</h1>
-        <a href="mailto:akoikwaku@gmail.com"><h2 class="center gold">akoikwaku@gmail.com</h2></a>
+        <h2 class="center gold section-title page-content">Say hello</h2>
+        <h4 class="center journey-intro">Let's get your ideas off the ground</h4>
+        <div class="contact-content">
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--1-col-phone">
+              <p class="gold">Email</p>
+            </div>
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet mdl-cell--3-col-phone">
+              <p><a href="mailto:akoikwaku@gmail.com">akoikwaku@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--1-col-phone">
+              <p class="gold">Github</p>
+            </div>
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet mdl-cell--3-col-phone">
+              <p><a href="https://github.com/SKAkoi">github.com/SKAkoi</a></p>
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--1-col-phone">
+              <p class="gold">Linked In</p>
+            </div>
+            <div class="mdl-cell mdl-cell--9-col mdl-cell--5-col-tablet mdl-cell--3-col-phone">
+              <p><a href="https://www.linkedin.com/in/kwakuakoi/">linkedin.com/in/kwakuakoi</a></p>
+            </div>
+        </div>
+      </div>
       </section>
     </main>
+    <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__right-section">
+          <a href="#" class="center">Made with <i class="material-icons gold">favorite</i> in Memphis, TN</a>
+        </div>
+      </footer>
 </div>
 
   
 
-  <div class="watermark mdl-layout">
+  <!--<div class="watermark mdl-layout">
     <p>Creative Strategy | UX Design | Product Management |</p>
-  </div>
+  </div>-->
 
 </div>
 </body>
