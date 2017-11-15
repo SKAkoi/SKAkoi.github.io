@@ -69,20 +69,6 @@ p {
   background-color: #FFEB00;
 }
 
-.mdl-chip {
-  background-color: #FFEB00;
-  width: 250px;
-}
-
-.brand {
-  width: 50px;
-  padding-right: 10px;
-}
-
-.brand img {
-  width: 40px;
-}
-
 #main {
   padding: 20px;
   color: #ffffff;
@@ -273,19 +259,19 @@ p {
 
   #aboutme > .page-content {
   margin-top: 5%;
-}
+  }
 
   .portfolio {
     width: 1080px;
     margin: 0 auto;
     overflow-x: scroll;
-}
+  }
 
   .row {
     width: 230%;
     display: inline-flex;
     flex-wrap: nowrap;
-}
+  }
 
   .watermark {
     display: none;
@@ -327,6 +313,13 @@ p {
 
   #aboutme > .page-content {
   margin-top: 1%;
+  }
+
+  .demo-card-square.mdl-card {
+    width: 310px;
+    height: 270px;
+    /*float: right;*/
+    margin: 10px;
   }
 
   .journey-intro {
@@ -389,11 +382,11 @@ p {
 
 .fade-second {
 
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
 }
 
 @keyframes fadein {
@@ -425,6 +418,7 @@ p {
     to   { opacity: 1; }
 }
 
+@media screen and (min-width: 767px) {
 .slide {
 
     -webkit-animation: slidein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -443,5 +437,7 @@ p {
     margin-left: 0%;
     width: 100%;
   }
+}
+
 }
 
