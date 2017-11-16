@@ -39,6 +39,7 @@ p {
 
 .mdl-layout__tab-bar-button {
   background-color: #005BD6;
+  display: none;
 }
 
 .mdl-layout {
